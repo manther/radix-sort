@@ -1,8 +1,6 @@
 # Radix::Sort
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/radix/sort`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Perfomre radix-sort on numeric array.
 
 ## Installation
 
@@ -22,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+result = [1001, 242, 5, 7, 13, 2, 1, 45, 621, 55, 3242, 62, 2, 66332, 81, 999].radix_sort
+or
+arr = [1001, 242, 5, 7, 13, 2, 1, 45, 621, 55, 3242, 62, 2, 66332, 81, 999]
+arr.radix_sort!
 
 ## Development
 
