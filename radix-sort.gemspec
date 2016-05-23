@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email   = ["jason.manther.young@gmail.com"]
 
   spec.description = %q{Perfomre radix-sort on numeric array.}
-  spec.summaru     = %q{Perfomre radix-sort on numeric array.}
+  spec.summary     = %q{Perfomre radix-sort on numeric array.}
   spec.homepage    = "https://github.com/Manther/radix-sort"
   spec.license     = "MIT"
 
