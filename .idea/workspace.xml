@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3f5fd7c-37bb-4d51-a8ca-b76abb3166ea" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/radix/sort.rb" afterPath="$PROJECT_DIR$/lib/sort.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/radix/sort/version.rb" afterPath="$PROJECT_DIR$/lib/radix_sort/version.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/sort.rb" afterPath="$PROJECT_DIR$/lib/radix_sort.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/radix-sort.gemspec" afterPath="$PROJECT_DIR$/radix-sort.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/radix_sort/version.rb" afterPath="$PROJECT_DIR$/lib/radix_sort/version.rb" />
     </list>
     <ignored path="radix-sort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +59,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sort.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/sort.rb">
+      <file leaf-file-name="radix_sort.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/radix_sort.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -91,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="version.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/radix_sort/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -133,9 +131,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/radix/sort.rb" />
         <option value="$PROJECT_DIR$/lib/radix/sort/version.rb" />
-        <option value="$PROJECT_DIR$/lib/radix_sort/version.rb" />
         <option value="$PROJECT_DIR$/radix-sort.gemspec" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/radix_sort/version.rb" />
       </list>
     </option>
   </component>
@@ -246,8 +244,8 @@
       <recent name="$PROJECT_DIR$/lib/radix_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.sort">
-    <configuration default="false" name="sort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.radix_sort">
+    <configuration default="false" name="radix_sort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="radix-sort" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib/radix_sort" />
@@ -262,7 +260,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/sort.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/radix_sort.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -397,11 +395,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.sort" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.radix_sort" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.sort" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.radix_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -418,16 +416,16 @@
       <workItem from="1464021402879" duration="86000" />
       <workItem from="1464021489790" duration="26000" />
       <workItem from="1464021516836" duration="4657000" />
-      <workItem from="1464203883491" duration="920000" />
+      <workItem from="1464203883491" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5689000" />
+    <option name="totallyTimeSpent" value="6120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="993" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -473,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sort.rb">
+    <entry file="file://$PROJECT_DIR$/lib/radix_sort.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -545,14 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/radix_sort/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/radix-sort.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -585,10 +575,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sort.rb">
+    <entry file="file://$PROJECT_DIR$/lib/radix_sort.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/radix_sort/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
